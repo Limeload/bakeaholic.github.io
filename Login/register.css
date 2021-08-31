@@ -1,0 +1,405 @@
+.landing-alert {
+  margin-bottom: 0; }
+
+.landing-header {
+  background-size: cover;
+  min-height: 570px; }
+
+.landing-header .motto {
+  padding-top: 8%;
+  text-align: left;
+  z-index: 3; }
+
+.landing-section {
+  padding: 100px 0; }
+
+.landing-section .btn-simple {
+  padding: 0; }
+
+.landing-section .column {
+  padding: 0 75px 0 25px; }
+
+.team-player .img-circle, .team-player .img-thumbnail {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px; }
+
+.contact-form {
+  margin-top: 30px; }
+
+.contact-form label {
+  margin-top: 15px; }
+
+.contact-form .btn {
+  margin-top: 30px; }
+
+.navbar-relative {
+  position: relative;
+  z-index: 2; }
+
+#register-navbar a {
+  color: #FFF; }
+
+body {
+  color: #ffb366;
+  font-size: 16px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.register-background {
+  background-image: url("../page-img/bakeaholicbg.jpg");
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  width: 100%; }
+
+.register-background .filter-black::after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
+
+.register-background .container {
+  margin-top: 11%;
+  position: relative;
+  z-index: 3; }
+
+  .login-main-wrapper {
+    padding: 15px 60px 30px;
+  }
+  
+  div.margin-top-30px {
+    margin-top: 30px !important;
+  }
+
+.bakeaholic-loginbox {
+  border: 0;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.8), inset 0px 0px 0px 1px #f0f2f7;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+  margin-top: -40px;
+}
+
+.bakeaholic-loginbox-title {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+h1 {
+  font-weight: 600;
+  line-height: 1.2;
+  font-family: "Cera Pro";
+  color: #a3dbb6;
+}
+
+.login-secondary {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.bakeaholic-signup-link {
+  text-decoration: underline;
+  font-size: 12px;
+  color: #f0f2f7;
+}
+
+.bakeaholic-signup {
+  font-size: 12px;
+  
+}
+
+
+.register-footer {
+  bottom: 20px;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 3;
+  width: 100%;
+ }
+
+.register-footer .fa-heart {
+  color: #dbcbc4; }
+
+.deprecated-server-side-form fieldset, .bakeaholic-fieldset {
+  border: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding-top: 15px;
+}
+
+fieldset {
+  display: block;
+  margin-inline-start: 10px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start:0.75em;
+  padding-inline-end:0.75em ;
+  padding-block-end: 0.6253em;
+  min-width: min-content;
+  padding-top: 15px;
+}
+
+main.form-group {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.deprecated-server-side-form label,
+.bakeaholic-label {
+  display: inline-block;
+  max-width: 100%;
+
+}
+label {
+  cursor: default;
+}
+
+input.checkbox:checked {
+  background-color: #a3dbb6 ;
+  border: #a3dbb6;
+
+}
+
+input.checkbox:checked:before {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: none;
+  content: "\e63a";
+  transition: color .3s ease-in-out;
+  vertical-align: -1px;
+  color: #fff;
+  font-size: 12px;
+  position: relative;
+}
+
+input:after, input:before {
+  box-sizing: inherit;
+}
+
+.deprecated-server-side-form input.checkbox, input.checkbox {
+  align-items: center;
+  -webkit-appearance: none;
+  background-color: ivory;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  flex-shrink: 0;
+  height: 20px;
+  justify-content: center;
+  margin: 0 10px 0 0;
+  position: relative;
+  top: 0;
+  width: 20px;
+  border: 1px solid #919197;
+  box-shadow: none;
+
+}
+
+.deprecated-server-side-form input[type=checkbox] {
+  box-shadow: none;
+  line-height: normal;
+
+}
+
+[type=checkbox] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.checkbox-wrapper {
+  display: block;
+  margin-top: 10px;
+  min-height: 20px;
+  position: relative;
+}
+.checkbox-wrapper label {
+  font-weight: 400;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  float: none;
+  min-height: 20px;
+  padding-left: 0;
+  position: relative;
+  -webkit-user-select: none;
+}
+
+.profile-background {
+  background-image: url("../paper_img/lamp.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  margin-top: -110px; }
+
+.list-third-party-services {
+border-top: none;
+text-align: center;
+z-index: 10;
+}
+
+.alt-together-separator {
+  position: relative;
+}
+
+.margin-bottom-20px {
+  margin-bottom: 20px !important;
+}
+
+.alt-login-separator {
+  content: "";
+  background-color: #dbcbc4;
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 31%;
+}
+
+.login-provider {
+  display: block;
+  line-height: 2.75em;
+  width: 100%;
+}
+
+.alt-login-btn {
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+a {
+  color: #a3dbb6;
+  transition: color 125ms ease-in-out;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#third-party-services .list-third-party-services .login-provider img {
+  margin-top: -4px;
+  margin-right: 3px;
+  height: 22px;
+  opacity: .75;
+  width: 22px;
+  line-height: 2.75em;
+
+
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.text-center {
+  text-align: center !important;
+}
+.margin-top-35px {
+  margin-top: 35px !important;
+}
+
+.row {
+  column-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+}
+
+.col-sm-offset-1,
+.col-sm-offset-1:first-child {
+  grid-column-start: 10;
+  
+}
+
+.col-sm-10 {
+position: relative;
+display: flex;
+justify-content: center;
+margin-left: 100px;
+text-align: center;
+}  
+
+
+.h-8--sm {
+  font-size: 14px;
+  line-height: 20px;
+  position: fixed;
+  padding-right: 80px;
+
+}
+
+p {
+  display: block;
+  
+}
+
+.bakeaholic-link {
+  color: aquamarine;
+  transition: color 125ms ease-in-out;
+  text-decoration: underline;
+  
+}
+
+
+
+.profile-background .filter-black::after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  height: 300px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
+
+
+.profile-content {
+  position: relative; }
+
+.owner .avatar {
+  margin-top: -85px;
+  padding: 15px;
+  position: relative;
+  z-index: 3; }
+
+.owner .name h4 {
+  margin-top: 10px; }
+
+.profile-tabs {
+  margin: 50px 0;
+  min-height: 300px; }
+
+#following h3 {
+  margin: 40px 0; }
+
+.follows .unfollow {
+  width: 15px; }
+
+.follows hr {
+  margin-top: 10px; }
+
+.alert h5 {
+  margin-bottom: 10px; }
